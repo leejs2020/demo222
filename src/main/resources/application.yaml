@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    hikari: 
+      driver-class-name: net.sf.log4jdbc.sql.jdbcapi.DriverSpy
+      jdbc-url: jdbc:log4jdbc:mysql://172.29.73.50:3306/OJT
+      username: root
+      password: Genian123!
+     
+---
+
+logging:
+  config: classpath:log4j2.yaml
+  
+ 
+  
+  
